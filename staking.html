@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> TREATOPIA </title>
+    <meta name="description" content="SOFT STAKING DAPP">
+    <meta property="og:image" content="/img/other_tag.jpg">
+    <link rel="stylesheet" href="css/css-style.css">
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <link rel="icon" href="./icon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        
+        <header class="header">
+            <div class="container">
+                <div class="header__row">
+
+                    <div class="header__logo">
+                        <img src="images/img-logo5.png" alt="logo site">
+                    </div>
+
+                    <div class="header__center">
+                        <a href="https://etherscan.io/address/0x5b0d643def5fa4b07c37dc5e5c9faacc0e1422ea" target="_blank" class="head-etherscan"></a>
+                        <a href="https://opensea.io/collection/dogliens" target="_blank" class="head-opensea"></a>
+                        <a href="https://twitter.com/DOGLIENS" target="_blank" class="head-twitter"></a>
+                        <a href="https://discord.gg/DOGLIENS" target="_blank" class="head-discord"></a>
+                    </div>
+
+                    <div class="header__right">
+                        <button class="btn-head" id="connect_button"> Connect wallet </button>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <div class="main">
+            <div class="container">
+                <div class="main__row">
+                    <div class="main__left">
+                        
+                        <div class="form-text"> TOTAL REWARDS ACCUMULATED </div>
+                        <div class="number" id="tokens_available"> CONNECT </div>
+
+                        <div class="form-text-2"> DISC Balance: <a class="form-text" id="rewards"> 0 </a> </div>
+
+                        <div class="form-text-2"> Dogliens Balance: <a class="form-text" id="tokensIds"> 0 </a> </div>
+                        
+                        <br>
+
+                        <div class="tooltip">
+                            <button class="btn-form" id="claim"> CLAIM ALL <span class="tooltiptext"> CLAIM ALL YOUR DOGLIENS DISC REWARDS </span> </button>
+                        </div>
+
+                        <div class="tooltip">
+                            <button class="btn-form" id="claimSelected"> CLAIM SELECTED <span class="tooltiptext"> CLAIM YOUR SELECTED DOGLIENS DISC REWARDS </span> </button>
+                        </div>
+
+                    </div>
+
+                    <div class="main__right">
+                        <img src="images/placeholder.png" alt="logo site">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="image-grid" id="grid">
+                <p class="NFTcard" id="example">
+                    <img class="card-image" src="images/example-placeholder.png" onerror="this.src='images/load.png'">
+                    <a class="card-text"> Remember to </a> <br> <a class="card-text"> approve your </a> <br>
+                    <a class="card-text"> wallet. </a>
+                </p>
+            </div>
+        </div> 
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__row">
+                    <div class="text-center copyright">
+                        <span> © 2022 DOGLIENS. All rights reserved </span>
+                      </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+	<script src="js/dist-web3.min.js"></script>
+    <script src="js/7663-js-sale.js"></script>
+    <script src="js/8305-js-main.js"></script>
+
+</body>
+
+</html>

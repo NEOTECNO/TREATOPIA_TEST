@@ -289,7 +289,7 @@ const connect = async (e)=> {
 
 			colTokensArray = Array.from(userBalance);
 
-			document.getElementById("tokens_available").innerHTML = supply + " DISC";
+			document.getElementById("tokens_available").innerHTML = "0 DISC";
 
 			await getTokens();
 			await rewards();

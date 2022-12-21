@@ -46,7 +46,7 @@ const claimOne = async (e)=> {
 			  	const gas = Math.round( await contract3.methods.claim(tokenId).estimateGas({value: 0, from: account}) * 1.1 );
 			  	result = await contract3.methods.claim(tokenId).send({value: 0, from: account, gas: gas});
 
-				success = document.getElementById(tokenId).innerHTML = "At Work!";
+				success = document.getElementById(tokenId).innerHTML = "CLAIMED!";
 			  	} 
 		  	catch(e)
 			  	{
